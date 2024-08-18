@@ -1,0 +1,11 @@
+#include<bits/stdc++.h>
+#include<conio.h>
+using namespace std;
+int main(){
+    double celcius, fahrenheight;
+    cout<<"Enter fahrenhight : ";
+    cin>>fahrenheight;
+    celcius = (fahrenheight-35)/1.8;
+    cout<<"temperature is : "<<celcius<<" degree celsius";
+    getch();
+}
