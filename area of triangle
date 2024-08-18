@@ -1,0 +1,14 @@
+#include<bits/stdc++.h>
+#include<conio.h>
+using namespace std;
+int main(){
+    double base, height, area;
+    cout<<"Enter base : "<<endl;
+    cin>>base;
+    cout<<"Enter height : "<<endl;
+    cin>>height;
+    area = 0.5*base*height;
+    cout<<"Aria of triangle : ";
+    cout<<area;
+    getch();
+}
